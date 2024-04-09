@@ -52,7 +52,7 @@ message = "What is mining?"
 # thread_id = thread.id
 # print(thread_id)
 
-message = client.beta.threads.messages.create(
+message = client.beta.threads.messages.create( 
     thread_id=thread_id, role="user", content=message
 )
 
